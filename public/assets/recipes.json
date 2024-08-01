@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onions", "garlic"],
+      "instructions": "Cook spaghetti. In a separate pan, cook beef, add onions and garlic, then add tomato sauce.",
+      "imageUrl": "/images/food-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "ingredients": ["chicken", "curry powder", "coconut milk", "onions", "garlic"],
+      "instructions": "Cook chicken. Add onions and garlic, then add curry powder and coconut milk.",
+      "imageUrl": "/images/food-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Curry 1",
+      "ingredients": ["chicken", "curry powder", "coconut milk", "onions", "garlic"],
+      "instructions": "Cook chicken. Add onions and garlic, then add curry powder and coconut milk.",
+      "imageUrl": "/images/food-2.jpg"
+    }
+    ,
+    {
+      "id":4,
+      "name": "Chicken Curry 2",
+      "ingredients": ["chicken", "curry powder", "coconut milk", "onions", "garlic"],
+      "instructions": "Cook chicken. Add onions and garlic, then add curry powder and coconut milk.",
+      "imageUrl": "/images/food-2.jpg"
+    }
+  ]
+  

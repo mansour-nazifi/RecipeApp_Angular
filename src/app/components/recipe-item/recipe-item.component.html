@@ -1,0 +1,11 @@
+ 
+    <div appHoverHighlight class="card mb-4 shadow-sm">
+      <img class="card-img-top" [src]="recipe.imageUrl" alt="{{recipe.name}}">
+      <div class="card-body">
+        <h5 class="card-title">{{ recipe.name }}</h5>
+        <p class="card-text">{{ recipe.instructions }}</p>
+         
+        <button class="btn btn-primary" (click)="btnClick(recipe)">{{btnTitle}}</button>
+      </div>
+    </div>
+ 

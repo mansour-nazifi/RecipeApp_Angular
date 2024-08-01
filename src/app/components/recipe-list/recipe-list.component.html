@@ -1,0 +1,18 @@
+ 
+ <h1>Home</h1>
+    <div class="form-group mb-3 mt-1" [formGroup]="searchForm">
+      <input type="text" class="form-control" formControlName="searchControl"  placeholder="Search recipes...">
+    </div>
+  
+    @if(recipes.length === 0){
+        <div class="alert alert-info">Loading...</div>
+    }
+    @else{
+        <div class="row">
+            @for (recipe of (filteredRecipes$ | async); track $index) {
+              <app-recipe-item class="col-md-4" [recipe]=recipe btnTitle="Save" (whenButtonClick)="saveRecipe($event)"></app-recipe-item>                
+            }          
+        </div>
+    }     
+ 
+  

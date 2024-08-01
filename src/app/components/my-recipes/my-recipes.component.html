@@ -1,0 +1,13 @@
+<h1 class="mb-3">My Recipes</h1>
+    @if(savedRecipes.length === 0){
+        <div class="alert alert-info">No saved recipes.</div>
+    }
+    @else {
+        <div class="row">
+            @for (recipe of savedRecipes; track $index) {
+              <app-recipe-item class="col-md-4" [recipe]=recipe btnTitle="Remove" (whenButtonClick)="removeRecipe($event)"></app-recipe-item>              
+            }     
+        </div>
+    }  
+  
+  
